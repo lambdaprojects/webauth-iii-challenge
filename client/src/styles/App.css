@@ -37,3 +37,24 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.register-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  width: 300px;
+}
+
+.register-card-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.text-box {
+  width: 150px;
+}
